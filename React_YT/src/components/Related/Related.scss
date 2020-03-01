@@ -1,0 +1,56 @@
+.related-videos {
+    position: absolute;
+    width: 304px;
+    height: 592px;
+    top: 650px;
+    right: 10px;
+    >div {
+		display: flex;
+	    flex-wrap: wrap;
+	    margin-bottom: 10px;
+	    img {
+		    display: block;
+		    height: 100%;
+		    width: 100%;
+		    max-height: 90px;
+		    max-width: 150px;
+		    cursor: pointer;
+		}
+		section {
+		    width: 154px;
+		    background-color: white;
+		    height: 90px;
+		    padding: 5px;
+		    font-size: 11px;
+		    overflow: hidden;
+		    h3 {
+			    cursor: pointer;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+
+	.related-videos {
+		top: 380px;
+	}
+
+}
+
+@media screen and (max-width: 950px) {
+
+	.related-videos {
+		width: 210px;
+		height: 1000px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.related-videos {
+		width: 105px;
+	}
+
+}

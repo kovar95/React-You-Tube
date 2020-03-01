@@ -1,0 +1,38 @@
+section {
+	&.video-preview {
+		padding: 60px 5px 5px 20px;
+		max-height: 519px;
+		height: 100%;
+		max-width: 825px;
+		width: 100%;
+		display: flex;
+		justify-content:center;
+	}
+}
+
+@media screen and (max-width: 950px) {
+
+	section {
+		&.video-preview {
+			iframe {
+			    width: 400px;
+			    height: 230px;
+			}
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+	section {
+		&.video-preview {
+			iframe {
+			    width: 350px;
+			    height: 200px;
+			}
+		}
+	}
+
+}

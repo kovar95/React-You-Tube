@@ -1,0 +1,26 @@
+.pagination {
+	display: block;
+	margin-bottom: 40px;
+	span {
+	    display: inline-block;
+	    width: 30px;
+	    height: 30px;
+	    border: 1px solid black;
+	    border-radius: 10px;
+	    text-align: center;
+	    padding: 3px;
+	    color: white;
+	    background-color: red;
+	    margin: 5px;
+	    text-shadow: 1px 1px 2px black;
+	    cursor: pointer;
+	    &.selected {
+	    	background-color: black;
+	    }
+	    &:hover {
+	    	background-color: #fe7171;
+	    }
+	}
+}
+
+

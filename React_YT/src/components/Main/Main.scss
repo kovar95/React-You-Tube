@@ -1,0 +1,15 @@
+
+main {
+	div{
+		&.main-wrapper{
+			padding-top: 30px;
+			flex-direction: column;
+			display: flex;
+			justify-content: space-around;
+			align-items:center;
+			width: 100%;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+	}
+}
